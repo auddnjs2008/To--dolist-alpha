@@ -1,0 +1,62 @@
+.a-clock {
+  background-color: pink;
+  width: 100px;
+  border-radius: 50px;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  margin-bottom: -20px;
+}
+
+.a-form {
+  text-align: center;
+}
+
+.a-todo {
+  text-align: center;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  animation: fadeIn 0.5s linear;
+}
+
+body {
+  height: 100vh;
+  background-color: #485460;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  border-radius: 10px;
+  width: 400px;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
